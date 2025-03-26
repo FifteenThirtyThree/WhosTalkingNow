@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Who's Talking Now</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #4CAF50;
+            padding: 5px 10px;
+            color: white;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            height: 50px;
+        }
+        .app-icon {
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+        }
+        nav h1 {
+            font-size: 18px;
+            margin: 0;
+        }
+        .hero {
+            background: url('src/images/background') no-repeat center center/cover;
+            padding: 100px 50px;
+            color: white;
+        }
+        .app-description, .gallery, .contact {
+            padding: 40px;
+            background: white;
+            margin: 80px auto 20px;
+            max-width: 800px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .gallery-container {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        .gallery-container img {
+            width: 45%;
+            max-width: 200px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        .contact a {
+            color: #4CAF50;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        body { padding-top: 50px; }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="src/images/icon.png" alt="App Icon" class="app-icon">
+            <h1>Who's Talking Now</h1>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <h2>Unleash Your Creativity with "Who's Talking Now"!</h2>
+        <p>Bring your photos to life with a little personality.</p>
+    </section>
+    
+    <section class="app-description">
+        <h2>About the App</h2>
+        <p>Unleash Your Creativity with "Who's Talking Now"! Have you ever wished to bring your photos to life with a little personality? With "Who's Talking Now," you can do just that and more! Imagine transforming a simple snapshot into a delightful conversation.</p>
+        <p>This FREE app allows you to attach your thoughts in a whimsical speech balloon to any photo from your Photos Library. Whether it's a hilarious caption for a funny face or a heartfelt message for a cherished memory, your creativity knows no bounds! Share your unique creations instantly through Messages and watch as friends and family can't resist joining the fun.</p>
+    </section>
+    
+    <section class="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-container">
+            <img src="src/images/image1.png" alt="App Screenshot 1">
+            <img src="src/images/image2.png" alt="App Screenshot 2">
+            <img src="src/images/image3.png" alt="App Screenshot 3">
+            <img src="src/images/image4.png" alt="App Screenshot 4">
+        </div>
+    </section>
+    
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p>Email: <a href="mailto:fifteenthirtythree2025@gmail.com">fifteenthirtythree2025@gmail.com</a></p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Fifteen Thirty Three LLC. All rights reserved.</p>
+    </footer>
+</body>
+</html>
